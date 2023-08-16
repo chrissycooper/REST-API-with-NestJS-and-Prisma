@@ -6,7 +6,6 @@ services:
   postgres:
     image: postgres:13.5
     restart: always
-    container-name: median-postgres-1
     environment:
       - POSTGRES_USER=chrissy
       - POSTGRES_PASSWORD=null
